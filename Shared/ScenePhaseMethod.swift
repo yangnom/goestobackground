@@ -7,11 +7,25 @@
 
 import SwiftUI
 
+
 struct ScenePhaseMethod: View {
     static let tag: String? = "scene"
+    @Environment(\.scenePhase) var scenePhase
+    @State var events: [String] = []
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(events.reversed(), id: \.self) {
+                Text("It is \($0)")
+            }
+        }
+            .onChange(of: scenePhase ) {value in
+                addState(phase: value)
+            }
+    }
+    
+    func addState(phase: ScenePhase) {
+        events.append("At \(Date().dateTimeString()) scenephase is \(phase)")
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87049F97268AF8A500D0671B /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049F96268AF8A500D0671B /* Date+Helpers.swift */; };
+		87049F98268AF8A500D0671B /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87049F96268AF8A500D0671B /* Date+Helpers.swift */; };
 		879BA051268A8C24002A93E9 /* ObjectWillChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BA043268A8C21002A93E9 /* ObjectWillChangeApp.swift */; };
 		879BA052268A8C24002A93E9 /* ObjectWillChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BA043268A8C21002A93E9 /* ObjectWillChangeApp.swift */; };
 		879BA053268A8C24002A93E9 /* NotificationMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BA044268A8C21002A93E9 /* NotificationMethodView.swift */; };
@@ -20,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87049F96268AF8A500D0671B /* Date+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
 		879BA043268A8C21002A93E9 /* ObjectWillChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectWillChangeApp.swift; sourceTree = "<group>"; };
 		879BA044268A8C21002A93E9 /* NotificationMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMethodView.swift; sourceTree = "<group>"; };
 		879BA045268A8C24002A93E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 				879BA044268A8C21002A93E9 /* NotificationMethodView.swift */,
 				879BA062268A9246002A93E9 /* ScenePhaseMethod.swift */,
 				879BA045268A8C24002A93E9 /* Assets.xcassets */,
+				87049F96268AF8A500D0671B /* Date+Helpers.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -178,6 +182,7 @@
 				879BA063268A9246002A93E9 /* ScenePhaseMethod.swift in Sources */,
 				879BA051268A8C24002A93E9 /* ObjectWillChangeApp.swift in Sources */,
 				879BA060268A91E3002A93E9 /* ContentView.swift in Sources */,
+				87049F97268AF8A500D0671B /* Date+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +194,7 @@
 				879BA064268A9246002A93E9 /* ScenePhaseMethod.swift in Sources */,
 				879BA052268A8C24002A93E9 /* ObjectWillChangeApp.swift in Sources */,
 				879BA061268A91E3002A93E9 /* ContentView.swift in Sources */,
+				87049F98268AF8A500D0671B /* Date+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
