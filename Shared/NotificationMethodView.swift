@@ -25,7 +25,7 @@ struct NotificationMethodView: View {
     }
     
     func willResign(notification: Notification) {
-        notificationString.append("At \(Date().dateTimeString()) notification was: \(notification.name) \(notification.userInfo)")
+        notificationString.append("At \(Date().dateTimeString()) notification was: \(notification.name)")
     }
 }
 
