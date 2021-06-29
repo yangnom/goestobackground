@@ -23,11 +23,12 @@
 
 /* Begin PBXFileReference section */
 		87049F96268AF8A500D0671B /* Date+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
+		87049F99268B07C400D0671B /* GoesToBackground--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoesToBackground--iOS--Info.plist"; sourceTree = "<group>"; };
 		879BA043268A8C21002A93E9 /* ObjectWillChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectWillChangeApp.swift; sourceTree = "<group>"; };
 		879BA044268A8C21002A93E9 /* NotificationMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMethodView.swift; sourceTree = "<group>"; };
 		879BA045268A8C24002A93E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		879BA04A268A8C24002A93E9 /* ObjectWillChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectWillChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		879BA050268A8C24002A93E9 /* ObjectWillChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectWillChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879BA04A268A8C24002A93E9 /* GoesToBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoesToBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879BA050268A8C24002A93E9 /* GoesToBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoesToBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879BA05F268A91E3002A93E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		879BA062268A9246002A93E9 /* ScenePhaseMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePhaseMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +54,7 @@
 		879BA03D268A8C20002A93E9 = {
 			isa = PBXGroup;
 			children = (
+				87049F99268B07C400D0671B /* GoesToBackground--iOS--Info.plist */,
 				879BA042268A8C21002A93E9 /* Shared */,
 				879BA04B268A8C24002A93E9 /* Products */,
 			);
@@ -74,8 +76,8 @@
 		879BA04B268A8C24002A93E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				879BA04A268A8C24002A93E9 /* ObjectWillChange.app */,
-				879BA050268A8C24002A93E9 /* ObjectWillChange.app */,
+				879BA04A268A8C24002A93E9 /* GoesToBackground.app */,
+				879BA050268A8C24002A93E9 /* GoesToBackground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		879BA049268A8C24002A93E9 /* ObjectWillChange (iOS) */ = {
+		879BA049268A8C24002A93E9 /* GoesToBackground (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 879BA059268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "ObjectWillChange (iOS)" */;
+			buildConfigurationList = 879BA059268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "GoesToBackground (iOS)" */;
 			buildPhases = (
 				879BA046268A8C24002A93E9 /* Sources */,
 				879BA047268A8C24002A93E9 /* Frameworks */,
@@ -95,14 +97,14 @@
 			);
 			dependencies = (
 			);
-			name = "ObjectWillChange (iOS)";
+			name = "GoesToBackground (iOS)";
 			productName = "ObjectWillChange (iOS)";
-			productReference = 879BA04A268A8C24002A93E9 /* ObjectWillChange.app */;
+			productReference = 879BA04A268A8C24002A93E9 /* GoesToBackground.app */;
 			productType = "com.apple.product-type.application";
 		};
-		879BA04F268A8C24002A93E9 /* ObjectWillChange (macOS) */ = {
+		879BA04F268A8C24002A93E9 /* GoesToBackground (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 879BA05C268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "ObjectWillChange (macOS)" */;
+			buildConfigurationList = 879BA05C268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "GoesToBackground (macOS)" */;
 			buildPhases = (
 				879BA04C268A8C24002A93E9 /* Sources */,
 				879BA04D268A8C24002A93E9 /* Frameworks */,
@@ -112,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = "ObjectWillChange (macOS)";
+			name = "GoesToBackground (macOS)";
 			productName = "ObjectWillChange (macOS)";
-			productReference = 879BA050268A8C24002A93E9 /* ObjectWillChange.app */;
+			productReference = 879BA050268A8C24002A93E9 /* GoesToBackground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 879BA041268A8C20002A93E9 /* Build configuration list for PBXProject "ObjectWillChange" */;
+			buildConfigurationList = 879BA041268A8C20002A93E9 /* Build configuration list for PBXProject "GoesToBackground" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,8 +150,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				879BA049268A8C24002A93E9 /* ObjectWillChange (iOS) */,
-				879BA04F268A8C24002A93E9 /* ObjectWillChange (macOS) */,
+				879BA049268A8C24002A93E9 /* GoesToBackground (iOS) */,
+				879BA04F268A8C24002A93E9 /* GoesToBackground (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -322,6 +324,10 @@
 				DEVELOPMENT_TEAM = 678NFC24L5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoesToBackground--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = GoesToBackground;
+				INFOPLIST_KEY_CFBundleName = GoesToBackground;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,8 +339,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.ObjectWillChange;
-				PRODUCT_NAME = ObjectWillChange;
+				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.GoesToBackground;
+				PRODUCT_NAME = GoesToBackground;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,6 +358,10 @@
 				DEVELOPMENT_TEAM = 678NFC24L5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GoesToBackground--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = GoesToBackground;
+				INFOPLIST_KEY_CFBundleName = GoesToBackground;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -363,8 +373,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.ObjectWillChange;
-				PRODUCT_NAME = ObjectWillChange;
+				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.GoesToBackground;
+				PRODUCT_NAME = GoesToBackground;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -387,6 +397,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = GoesToBackground;
+				INFOPLIST_KEY_CFBundleName = GoesToBackground;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -394,8 +407,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.ObjectWillChange;
-				PRODUCT_NAME = ObjectWillChange;
+				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.GoesToBackground;
+				PRODUCT_NAME = GoesToBackground;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -416,6 +429,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = GoesToBackground;
+				INFOPLIST_KEY_CFBundleName = GoesToBackground;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -423,8 +439,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.ObjectWillChange;
-				PRODUCT_NAME = ObjectWillChange;
+				PRODUCT_BUNDLE_IDENTIFIER = com.officialee.poopynoopers.GoesToBackground;
+				PRODUCT_NAME = GoesToBackground;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -434,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		879BA041268A8C20002A93E9 /* Build configuration list for PBXProject "ObjectWillChange" */ = {
+		879BA041268A8C20002A93E9 /* Build configuration list for PBXProject "GoesToBackground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				879BA057268A8C24002A93E9 /* Debug */,
@@ -443,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		879BA059268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "ObjectWillChange (iOS)" */ = {
+		879BA059268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "GoesToBackground (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				879BA05A268A8C24002A93E9 /* Debug */,
@@ -452,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		879BA05C268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "ObjectWillChange (macOS)" */ = {
+		879BA05C268A8C24002A93E9 /* Build configuration list for PBXNativeTarget "GoesToBackground (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				879BA05D268A8C24002A93E9 /* Debug */,

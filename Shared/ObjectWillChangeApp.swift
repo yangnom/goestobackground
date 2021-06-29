@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ObjectWillChangeApp: App {
+struct GoesToBackgroundApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
