@@ -20,13 +20,14 @@ struct NotificationMethodView: View {
                 .navigationBarTitle("Notifications")
             }
         }
-        //        .navigationTitle("Notification Method")
-        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: willResign)
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: willChange)
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification), perform: willChange)
     }
     
-    func willResign(notification: Notification) {
+    func willChange(notification: Notification) {
         notificationString.append("At \(Date().dateTimeString()) notification was: \(notification.name)")
     }
+
 }
 
 struct NotificationMethodView_Previews: PreviewProvider {

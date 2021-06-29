@@ -28,7 +28,7 @@ struct ScenePhaseMethod: View {
     }
     
     func addState(phase: ScenePhase) {
-        events.append("At \(Date().dateTimeString()) scenephase is \(phase)")
+        events.append("At \(Date().dateTimeString()) scenephase was \(phase)")
     }
 }
 
