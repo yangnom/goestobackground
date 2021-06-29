@@ -8,29 +8,24 @@
 import SwiftUI
 
 struct NotificationMethodView: View {
-  static let tag: String? = "notification"
- @State var color: Color = .red
+    static let tag: String? = "notification"
+    @State var notificationString: [String] = []
     
     var body: some View {
-        VStack {
-        Text("Object will change")
-            .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: willResign)
-        Rectangle()
-                .frame(minWidth: 50, maxWidth: 100, minHeight: 50, maxHeight: 100)
-                .foregroundColor(color)
+        NavigationView {
+            List{
+                ForEach(notificationString, id: \.self) {
+                    Text("\($0)")
+                }
+                .navigationBarTitle("Notifications")
+            }
         }
-        .padding()
+        //        .navigationTitle("Notification Method")
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: willResign)
     }
     
-    func willResign(_: Notification) {
-        
-        print("App is background")
-        
-        if color == .red {
-            color = .green
-        } else {
-            color = .red
-        }
+    func willResign(notification: Notification) {
+        notificationString.append("At \(Date().dateTimeString()) notification was: \(notification.name) \(notification.userInfo)")
     }
 }
 

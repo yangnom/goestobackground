@@ -14,14 +14,17 @@ struct ScenePhaseMethod: View {
     @State var events: [String] = []
     
     var body: some View {
-        List {
-            ForEach(events.reversed(), id: \.self) {
-                Text("It is \($0)")
+        NavigationView {
+            List {
+                ForEach(events.reversed(), id: \.self) {
+                    Text("\($0)")
+                }
             }
+            .navigationTitle("Scene Phase")
         }
-            .onChange(of: scenePhase ) {value in
-                addState(phase: value)
-            }
+        .onChange(of: scenePhase ) {value in
+            addState(phase: value)
+        }
     }
     
     func addState(phase: ScenePhase) {
